@@ -30,9 +30,9 @@ body {
 
   background-color: #f3eee3;
 
-  width           : 100vw;
+  width           : 200vw;
 
-  height          : 100vh;
+  height          : 200vh;
 
   overflow-x      : hidden;
 
@@ -42,7 +42,7 @@ body {
 
 header {
 
-  padding          : 12px;
+  padding          : 24px;
 
   display          : -webkit-box;
 
@@ -62,7 +62,7 @@ header {
 
   justify-content  : space-evenly;
 
-  margin-bottom    : 20px;
+  margin-bottom    : 40px;
 
 }
 
@@ -70,13 +70,13 @@ header {
 
 header .title {
 
-  font-size    : 28px;
+  font-size    : 56px;
 
-  font-weight  : 900;
+  font-weight  : 1800;
 
   color        : #776E65;
 
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 
 }
 
@@ -84,11 +84,11 @@ header .title {
 
 header .description {
 
-  font-size  : 14px;
+  font-size  : 28px;
 
   color      : #776E65;
 
-  line-height: 24px;
+  line-height: 48px;
 
 }
 
@@ -108,17 +108,17 @@ header .scoreboard {
 
   color           : #fff4ea;
 
-  font-weight     : 500;
+  font-weight     : 1000;
 
-  font-size       : 18px;
+  font-size       : 36px;
 
-  padding         : 5px 10px;
+  padding         : 10px 20px;
 
   text-align      : center;
 
-  border-radius   : 5px;
+  border-radius   : 10px;
 
-  margin-left     : 25px;
+  margin-left     : 50px;
 
 }
 
@@ -128,11 +128,11 @@ header .scoreboard #score {
 
   display    : block;
 
-  font-size  : 18px;
+  font-size  : 36px;
 
-  margin     : 5px 0;
+  margin     : 10px 0;
 
-  font-weight: 700;
+  font-weight: 1400;
 
 }
 
@@ -166,7 +166,7 @@ main {
 
   width                : 90%;
 
-  max-width            : 400px;
+  max-width            : 800px;
 
   margin               : 0 auto;
 
@@ -174,13 +174,13 @@ main {
 
   grid-template-columns: repeat(4, 1fr);
 
-  gap                  : 10px;
+  gap                  : 20px;
 
-  padding              : 10px;
+  padding              : 20px;
 
   background-color     : #cab8a5;
 
-  border-radius        : 5px;
+  border-radius        : 10px;
 
 }
 
@@ -194,7 +194,7 @@ main {
 
   text-align      : center;
 
-  border-radius   : 5px;
+  border-radius   : 10px;
 
 }
 
@@ -222,7 +222,7 @@ main {
 
   justify-content   : center;
 
-  z-index           : 10;
+  z-index           : 20;
 
   top               : 0;
 
@@ -232,7 +232,7 @@ main {
 
   height            : 100%;
 
-  border-radius     : 5px;
+  border-radius     : 10px;
 
   cursor            : pointer;
 
@@ -242,7 +242,7 @@ main {
 
   transition        : left 0.1s linear, top 0.1s linear;
 
-  font-size         : 24px;
+  font-size         : 48px;
 
   background-color  : #20305a;
 
@@ -252,11 +252,11 @@ main {
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 
   .gameboard .tile {
 
-    font-size: 15px;
+    font-size: 30px;
 
   }
 
@@ -280,13 +280,13 @@ main {
 
 .gameboard .tile[data-value="8"] {
 
-  font-size: 40px;
+  font-size: 80px;
 
 }
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 
 
 
@@ -296,7 +296,7 @@ main {
 
   .gameboard .tile[data-value="8"] {
 
-    font-size: 30px;
+    font-size: 60px;
 
   }
 
@@ -310,13 +310,13 @@ main {
 
 .gameboard .tile[data-value="64"] {
 
-  font-size: 34px;
+  font-size: 68px;
 
 }
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 
 
 
@@ -326,7 +326,7 @@ main {
 
   .gameboard .tile[data-value="64"] {
 
-    font-size: 26px;
+    font-size: 52px;
 
   }
 
@@ -340,13 +340,13 @@ main {
 
 .gameboard .tile[data-value="512"] {
 
-  font-size: 28px;
+  font-size: 56px;
 
 }
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 
 
 
@@ -356,7 +356,7 @@ main {
 
   .gameboard .tile[data-value="512"] {
 
-    font-size: 22px;
+    font-size: 44px;
 
   }
 
@@ -368,13 +368,13 @@ main {
 
 .gameboard .tile[data-value="2048"] {
 
-  font-size: 28px;
+  font-size: 56px;
 
 }
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
 
 
 
@@ -382,7 +382,7 @@ main {
 
   .gameboard .tile[data-value="2048"] {
 
-    font-size: 20px;
+    font-size: 40px;
 
   }
 
@@ -528,7 +528,7 @@ main {
 
   width                : 90%;
 
-  max-width            : 400px;
+  max-width            : 800px;
 
   height               : 100%;
 
@@ -550,9 +550,9 @@ main {
 
   background   : #776E65;
 
-  padding      : 10px 15px 7.5px 15px;
+  padding      : 20px 30px 15px 30px;
 
-  border-radius: 5px;
+  border-radius: 10px;
 
   cursor       : pointer;
 
@@ -572,7 +572,7 @@ main {
 
 .gameOver .replay .material-icons-round {
 
-  font-size  : 28px;
+  font-size  : 56px;
 
   font-weight: 900;
 

@@ -5,7 +5,7 @@ https://dangtrongdong.github.io/phaohoa
 https://dangtrongdong.github.io/firework  
 https://dangtrongdong.github.io/chess  
 https://dangtrongdong.github.io/calculator  
-https://dangtrongdong.github.io/tiktok  
+https://dangtrongdong.github.io/tetris  
 https://dangtrongdong.github.io/dotgame  
 https://dangtrongdong.github.io/galaxy  
 https://dangtrongdong.github.io/matrix

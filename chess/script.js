@@ -1217,7 +1217,7 @@ window.onload = function(){
             myTurn = true;
         }
         else {
-            //alert('You Win');
+            alert('You Win');
         }
     }
 }

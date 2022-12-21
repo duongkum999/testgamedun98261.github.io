@@ -4,13 +4,15 @@ const context = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
-const LATIN = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-const nums = '0123456789';
-const binary = '0101010101010101010101010101010101';
-const latin = "abcdefghijklmnopqrstuvwxyz"
+//const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
+//const LATIN = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+//const nums = '0123456789';
+//const binary = '0101010101010101010101010101010101';
+//const latin = "abcdefghijklmnopqrstuvwxyz"
 
-const alphabet = katakana + latin + nums + LATIN + binary;
+//const alphabet = katakana + latin + nums + LATIN + binary;
+
+const alphabet = "01";
 
 const fontSize = 16;
 const columns = canvas.width/fontSize;
@@ -40,4 +42,4 @@ const draw = () => {
     }
 };
 
-setInterval(draw, 15);
+setInterval(draw, 25);

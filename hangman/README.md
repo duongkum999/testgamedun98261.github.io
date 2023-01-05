@@ -1,1 +1,0 @@
-# Hangman ăn cắp🐧
